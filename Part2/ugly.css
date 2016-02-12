@@ -1,0 +1,124 @@
+html 
+{
+	overflow-y: scroll;
+}
+
+body 
+{
+	background-image: url("./pics/rainbow.jpg");
+	background-size: cover;                   
+ 	background-repeat: no-repeat;
+	
+}
+
+img {
+	 -ms-transform: rotate(90deg); /* IE 9 */
+    	-webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+	-moz-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    	transform: rotate(90 deg);
+}
+
+h1 
+{
+	text-align: center;
+	font-size: 5em;
+	color: white;
+}
+
+h2, h3, h4 {
+	text-align: center;
+	font-size: 3em;
+}
+
+h5 {
+	text-align: center;
+	font-size: 2em;
+}
+
+/*Taken from http://rainbowcoding.com/how-to-create-rainbow-text-in-html-css-javascript/ doesnt work for firefox
+  date: feb 9, 2016*/
+.rainbow {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+#background {
+    position: absolute;
+    top: 12em;
+    left: 25em;
+    width: 60%;
+    height: 50em;
+    background-color: #d3d3d3;
+    background-position: center;
+    z-index: 1;
+}
+
+#navigation 
+{
+    position: absolute;
+    top: 10em;
+    left: 25em;
+    width: 60%;
+    background-color: #d3d3d3;
+    background-position: center;
+}
+
+#navigation h1 
+{
+	color: #2980b9
+	display:block;
+}
+
+#navigation li 
+{
+	float: left;
+}
+
+#navigation ul 
+{
+	list-style-type: none;
+    	margin: 0;
+    	padding: 0;
+    	overflow: hidden;
+}
+
+li a 
+{
+    	display: block;
+	padding: 1em 7em;
+	text-align: center;
+	text-decoration:  none;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: black;
+}
+
+#rightcolumn 
+{
+	position: absolute;
+   	top: 10em;
+    	left: 90em;
+    	height: 40em;
+	width: 10em;
+    	background-color: #d3d3d3;
+    	background-position: center;
+}
+
+#rightcolumn ul 
+{
+	list-style-type: circle;
+	padding: 0em 2em;
+	font-weight: 700;
+	color: rgba(255,255,255,0.5);
+}
+
+#rightcolumn ul li 
+{
+	padding: 10px 0px;
+	font-size: 1em;
+}
+
+

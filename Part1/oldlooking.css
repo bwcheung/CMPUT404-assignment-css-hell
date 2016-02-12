@@ -1,0 +1,22 @@
+body  {
+    background-image: url("oldpaper.jpg");
+    background-size: cover;                      
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+p {
+	font-family: 'Goudy Old Style', Garamond, 'Big Caslon', 'Times New Roman', serif;
+	font-style: oblique;
+	font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Goudy Old Style', Garamond, 'Big Caslon', 'Times New Roman', serif;
+	font-style: oblique;
+}
+
+img {
+	opacity: 0.4;
+    	filter: alpha(opacity=40); 
+}
